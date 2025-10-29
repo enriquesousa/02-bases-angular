@@ -41,5 +41,11 @@
     // Prettier Tab Width
     "prettier.tabWidth": 4,
 
+    // Spellcheck abilitar en español
+    "cSpell.language": "en,es",
+
+    // Bookmarks Que se guarden en este proyecto
+    "bookmarks.saveBookmarksInProject": true,
+
 
 }

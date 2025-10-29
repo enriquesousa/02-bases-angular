@@ -1,14 +1,11 @@
 import { Routes } from '@angular/router';
+import { CounterPageComponent } from './pages/counter/counter-page';
 
 export const routes: Routes = [
-    // /hola mundo => HolaMundoComponent
 
-    // /usuarios => UsuariosComponent
-
-    //  /admin => AdminComponent
-
-    // / => HomeComponent
-
-    // /404 => NotFoundComponent
+    {
+        path: '',
+        component: CounterPageComponent
+    }
 
 ];

@@ -1,11 +1,14 @@
 import { Routes } from '@angular/router';
 import { CounterPageComponent } from './pages/counter/counter-page';
 import { Hero2PageComponent, HeroPageComponent } from './pages/hero/hero-page';
+import { App } from './app';
+import { HomePageComponent } from './pages/home/home-page';
 
 export const routes: Routes = [
 
-    { path: '', component: CounterPageComponent, title: 'Home Page | Counter' },
-    { path: 'hero', component: HeroPageComponent, title: 'Hero Page | Display' },
-    { path: 'hero-tarea', component: Hero2PageComponent, title: 'Hero Page | Tarea' },
+    { path: '', component: HomePageComponent, title: 'Home | Page' },
+    { path: 'counter', component: CounterPageComponent, title: 'Counter | Page' },
+    { path: 'hero', component: HeroPageComponent, title: 'Hero | Page' },
+    { path: 'hero-tarea', component: Hero2PageComponent, title: 'Hero Tarea | Page' },
 
 ];

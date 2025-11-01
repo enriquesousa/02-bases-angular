@@ -10,12 +10,16 @@
         color: white;
         text-decoration: none;
     }
+    nav a.active {
+        font-weight: bold;
+        color: red;
+    }
 </style>
 
 <nav>
-    <a routerLink="/">Home</a>
-    <a routerLink="/counter">Counter</a>
-    <a routerLink="/hero">Hero Yo</a>
-    <a [routerLink]="['/hero-tarea']">Hero Tarea</a>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true}">Home</a>
+    <a routerLink="/counter" routerLinkActive="active">Counter</a>
+    <a routerLink="/hero" routerLinkActive="active">Hero Yo</a>
+    <a [routerLink]="['/hero-tarea']" [routerLinkActive]="'active'">Hero Tarea</a>
     <!-- Otros -->
 </nav>

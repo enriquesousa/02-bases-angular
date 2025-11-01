@@ -32,6 +32,9 @@
     // Editor Font Size
     "editor.fontSize": 14,
 
+    // Zoom Level
+    "window.zoomLevel": 1,
+
     // Editor Line Height
     "editor.lineHeight": 1.5,
 

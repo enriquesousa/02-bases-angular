@@ -16,7 +16,7 @@ export class CounterPageComponent {
         // Cada dos segundos mandamos a consola un tick
         setInterval( () => {
             // this.counter += 1;
-            this.increaseBy(1);
+            // this.increaseBy(1);
             // this.counterSignal.update((v) => v + 1);
             console.log('Tick');
         }, 2000);

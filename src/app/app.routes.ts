@@ -11,4 +11,5 @@ export const routes: Routes = [
     { path: 'hero', component: HeroPageComponent, title: 'Hero | Page' },
     { path: 'hero-tarea', component: Hero2PageComponent, title: 'Hero Tarea | Page' },
 
+    { path: '**', redirectTo: '' },
 ];
